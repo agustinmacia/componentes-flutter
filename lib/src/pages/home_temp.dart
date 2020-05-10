@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class HomePageTemp extends StatelessWidget {
 
-  final opciones = ['Uno','Dos','Tres','Cuatro','Cinco','Seis'];
+  final opciones = ['Juli','Es','Un','Puppy','Super','Fiacoso'];
 
   @override
   Widget build(BuildContext context) {
@@ -41,6 +41,9 @@ class HomePageTemp extends StatelessWidget {
           children: <Widget>[
             ListTile(
               title: Text(widget + '!'),
+              leading: Icon(Icons.phone),
+              trailing: Icon(Icons.arrow_right),
+              onTap: (){},
             ),
             Divider(),
           ],
